@@ -1,0 +1,71 @@
+relatorio do bot
+
+como ele está trabalhando com BBands e RSI, ele está focado em comprar ou vender apenas quando bater oversold ou overbought nos 2 indicadores
+assim sendo, tendo comprado um asset, e mesmo analisando o historico do asset, ele vai esperar uma subida brusca para realizar a venda
+caso ele tenha comprado e o ativo comece a cair, ele não fará uma venda, pois não há um controle de stop loss
+
+
+
+Pendencias:
+Stop Loss
+Stop Gain
+
+
+
+status geral: inoperavel
+
+
+
+
+RSI: Relative Strength Index
+pode ser um bom indicador de reversão de tendencia
+
+
+Horario do mercado:
+10h00 ~ 18h25
+
+
+https://blog.quantinsti.com/bollinger-bands/?utm_source=google&utm_medium=cpc&utm_campaign=dsa_brazil_argentina_mexico&utm_content=&gclid=Cj0KCQiA1NebBhDDARIsAANiDD1RcLu_tYUbWqXAZEmJyOXd1JVu9cqlLKnm2NYFXstgK1Wd3gKS10AaAo5IEALw_wcB
+
+https://blog.quantinsti.com/rsi-indicator/
+
+
+
+Um robô feito em Python em conjunto com MQL5, usando a linguagem de programação que mais cresce no mundo,
+unida a linguagem dos traders.
+
+
+Usando as imbatíveis "Bandas de Bollinger", um dos indicadores mais utilizados pelos investidores profissionais,
+O robô usa a estratégia de compra em Oversold e venda em Overbought, assim toda vez que o ativo cruzar uma das
+bandas do indicador ele dispara um sinal, seja de compra ou de venda, tudo de forma automatizada.
+
+Para aumentar seus potenciais o robô é configurado de acordo com especificação do próprio John Bollinger,
+criador das famosas "Bandas de Bollinger".
+
+E para reduzir as chances de perda, ele também conta com o indicador RSI (Relative Strength Index) que é outro dos
+maiores indicadores usados no mundo todo.
+
+
+Principais vantagens em fazer negociações utilizando robôs:
+Reduzir a emoção humana durante o processo de decisão de compra ou venda.
+Utilizar indicadores para fazer análise técnica de forma mais precisa e certeira
+Automação do processo de trade, dispensando a necessidade de estar acompanhando o mercado em busca de oportunidades de trade.
+
+
+É importante ter em mente que um robô trader não é a chave para o sucesso. Mas sim uma ferramenta a mais no arsenal do trader.
+Tendo em mente que o mercado de ações, ações e outros sofrem oscilações bruscas imprevisíveis mesmo para máquinas,
+é preciso estar ciente que o robô não trará apenas resultados positivos, e que o trader está de acordo e sabe compensar seus ganhos e prejuízos.
+
+
+
+
+Pendencias:
+StopLoss
+StopGain
+Aviso de alerta caso o sistema pare
+Interface gráfica para calibrar os indicadores, definição do ativo, horario de operação, etc.
+rodar apenas apos as 10h e parar as 18h25
+identificar estreitamento das bandas de bollinger e nao operar nesses horarios
+
+
+
